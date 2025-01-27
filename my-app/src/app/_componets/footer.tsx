@@ -1,5 +1,3 @@
-import Image from "next/image";
-import lolrusImage from "../../../public/bucket.png"
 export default function Footer() {
   return (
 <div className="fixed bottom-0 left-0 w-full min-h-[200px] bg-footer-color flex items-center justify-center">

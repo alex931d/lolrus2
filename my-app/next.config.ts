@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/lolruscoinproject/' : '',
-  basePath: isProd ? '/lolruscoinproject' : '',
+  assetPrefix: isProd ? '/lolrus2/' : '',
+  basePath: isProd ? '/lolrus2' : '',
   output: 'export'
 };
 
