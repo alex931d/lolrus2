@@ -1,11 +1,8 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import lolrus2Image from "../../../public/lolrus2.png"
 import lolrusImage from "../../../public/bucket.png"
 import Image from "next/image";
-import Marquee from "@/components/ui/marquee";
-
-const items = ['i has el bucket', 'the bucket is mine!', 'no the bucket is gone!', 'help my bucket!']
 
 export default function Body() {
   return (
@@ -46,7 +43,7 @@ export default function Body() {
                     
                     </CardHeader>
                     <CardContent className="">
-                    <p className="mb-6 text-lg text-gray-900 font-semibold lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Lolrus the Walrus became a viral sensation in 2006, stealing hearts with his unforgettable expression and the legendary line, "I has a bucket." $LOLrus is more than a meme coin—it's a tribute to a meme icon who united millions through laughter and nostalgia. Join us in honoring Lolrus by keeping his legacy alive in the blockchain world.</p>
+                    <p className="mb-6 text-lg text-gray-900 font-semibold lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Lolrus the Walrus became a viral sensation in 2006, stealing hearts with his unforgettable expression and the legendary line, I has a bucket. $LOLrus is more than a meme coin—its a tribute to a meme icon who united millions through laughter and nostalgia. Join us in honoring Lolrus by keeping his legacy alive in the blockchain world.</p>
                       
                     </CardContent>
                     <Image className=" absolute top-[10%] left-[84%]  -rotate-45 max-sm:left-[75%] max-sm:top-[35%]" height={300} width={300} alt="lolrus2" src={lolrus2Image} />
